@@ -55,7 +55,7 @@ The goal is to understand **customer behavior, spending patterns, and sales tren
 
 ### Sales by state Trend  
 ![Monthly Trend](images/monthly_trend.png)
-"C:\Users\zinshu\Pictures\Screenshots\Screenshot 2025-09-13 120813.png"
+C:\Users\zinshu\Pictures\Screenshots\Screenshot 2025-09-13 120813.png
 
   
 
