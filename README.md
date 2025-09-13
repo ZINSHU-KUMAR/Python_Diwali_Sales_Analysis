@@ -1,84 +1,96 @@
-# 🪔 Diwali Sales Analysis (Python)  
+# 🪔 Diwali Sales Analysis
 
-## 📌 Overview  
+## 📖 Overview  
 This project performs **Exploratory Data Analysis (EDA)** on Diwali Sales data using Python.  
 The goal is to understand **customer behavior, spending patterns, and sales trends** during the festive season.  
 
+> 📂 Notebook Path:  
+`C:\Users\zinshu\Downloads\Python_Diwali_Sales_Analysis\Python_Diwali_Sales_Analysis\Diwali_Sales_Analysis.ipynb`
+
 ---
 
-## ⚙️ Technologies Used  
+## ⚙️ Tech Stack  
 - Python 🐍  
-- Pandas 🐼  
-- NumPy 🔢  
-- Matplotlib 📊  
-- Seaborn 🎨  
-- Jupyter Notebook 📒  
+- Jupyter Notebook 📓  
+- Pandas | NumPy → Data Cleaning & Analysis  
+- Matplotlib | Seaborn → Data Visualization  
 
 ---
 
-## 🗂️ Dataset  
-- File: `Diwali_Sales.csv`  
-- Shape: ~11,000 rows × multiple columns  
-- Key columns: `Gender`, `Age Group`, `State`, `Occupation`, `Marital_Status`, `Product_Category`, `Amount`  
-
-📸 **Dataset Preview:**  
-![Dataset Head](images/dataset_head.png)  
 
 ---
 
-## 🚀 Steps Performed  
+## 🔍 Workflow  
 
-1. **Data Cleaning 🧹**  
+1. **Data Loading & Cleaning** 🧹  
    - Removed null values  
    - Dropped irrelevant columns  
+   - Converted data types  
 
-2. **Exploratory Data Analysis 📊**  
-   - Gender-wise spending  
-   - Age-group wise sales  
-   - Top 10 states by sales  
-   - Occupation vs. spending  
-   - Most popular product categories  
+2. **Exploratory Data Analysis (EDA)** 📊  
+   - Gender-wise spending analysis  
+   - Age & Marital status analysis  
+   - State-wise revenue and orders  
+   - Top product categories & high-value customers  
 
-3. **Visualization 🎨**  
-   - Bar plots, Pie charts, Count plots  
-   - Heatmaps for insights  
+3. **Visualization** 🎨  
+   - Used bar plots, line plots, count plots, and heatmaps  
 
 ---
 
 ## 📸 Visualizations  
 
-### 👩 Gender-wise Spending  
+### Gender-wise Sales  
 ![Gender Sales](images/gender_sales.png)  
+"C:\Users\zinshu\Pictures\Screenshots\Screenshot 2025-09-12 010658.png"
 
-### 👥 Age Group vs Amount  
-![Age Group Sales](images/age_sales.png)  
-<img width="1006" height="669" alt="Screenshot 2025-09-12 010816" src="https://github.com/user-attachments/assets/2d2f115c-c851-4a12-8205-62dc2e6e44e8" />
+### State-wise Revenue  
+![State Revenue](images/state_revenue.png)  
+"C:\Users\zinshu\Pictures\Screenshots\Screenshot 2025-09-12 010932.png"
 
-### 🏙️ Top 10 States by Sales  
-![Top States](images/state_sales.png)  
 
-### 💼 Occupation vs Sales  
-![Occupation Sales](images/occupation_sales.png)  
+### Top Product Categories  
+![Category Sales](images/category_sales.png) 
+"C:\Users\zinshu\Pictures\Screenshots\Screenshot 2025-09-13 120259.png"
 
-### 🛍️ Product Category Distribution  
-![Product Category](images/product_category.png)  
+### Sales by state Trend  
+![Monthly Trend](images/monthly_trend.png)
+"C:\Users\zinshu\Pictures\Screenshots\Screenshot 2025-09-13 120813.png"
 
----
-
-## 📊 Key Insights  
-
-- 🎯 **Married women (26–35 yrs)** from **Uttar Pradesh, Maharashtra, and Karnataka** contribute the most sales.  
-- 👩‍💻 Customers working in **IT, Healthcare, and Aviation** sectors spend the most.  
-- 📱 Top-selling categories: **Clothing, Electronics, and Home Appliances**.  
-
-📸 **Insights Summary (Optional):**  
-![Insights](images/insights.png)  
+  
 
 ---
 
-## 🔧 How to Run  
+## 🎯 Key Insights  
+- 🧕 Women customers spent more compared to men  
+- 💍 Married customers contributed higher revenue  
+- 🏙️ Top states: **Uttar Pradesh, Maharashtra, Karnataka**  
+- 👗 Best-selling category: **Clothing & Apparel**, followed by Food & Electronics  
+
+---
+
+## 🚀 How to Run  
 
 1. Clone the repository  
    ```bash
-   git clone https://github.com/username/Diwali_Sales_Analysis.git
-   cd Diwali_Sales_Analysis
+  -> git clone https://github.com/your-username/Diwali_Sales_Analysis.git
+   
+2. Navigate to the project folder
+   -> cd Diwali_Sales_Analysis
+
+3. Install dependencies
+  -> pip install pandas numpy matplotlib seaborn
+
+4. Run the notebook
+ -> jupyter notebook Diwali_Sales_Analysis.ipynb
+
+
+ 🙌 Conclusion
+
+This analysis highlights customer buying patterns during Diwali.
+Such insights can help businesses improve marketing strategies, inventory planning, and customer targeting.
+
+
+   
+
+
