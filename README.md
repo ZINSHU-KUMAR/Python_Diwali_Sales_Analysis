@@ -73,7 +73,7 @@ The goal is to understand **customer behavior, spending patterns, and sales tren
 
 1. Clone the repository  
    ```bash
-  -> git clone https://github.com/your-username/Diwali_Sales_Analysis.git
+  -> [git clone https://github.com/ZINSHU-KUMAR/Python_Diwali_Sales_Analysis]
    
 2. Navigate to the project folder
    -> cd Diwali_Sales_Analysis
